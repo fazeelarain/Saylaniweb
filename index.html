@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cal project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body> 
+   
+    <h1> Name:Fazeel Ahmed</h1>
+    <h3>Email : Fazeelahmed107@gamil.com</h3>
+    <h2>Roll N0 # WM3531</h2>
+
+    <div class="calculator">
+        <input type="text" value="0"id="screen">
+       
+        
+    
+        <div class="calculator-buttons">
+        <button class="cal-btn-special" onclick ="clearResult()" id="btn-clear">C</button>
+        <button class="cal-btn function"onclick="getNumber('%')">%</button>
+        <button class="cal-btn function"onclick="getNumber('/')">&divide;</button>
+        <button class="cal-btn function"onclick="getNumber('*')">&times;</button>
+    
+            
+        <button class="cal-btn" onclick="getNumber('9')">9</button>
+        <button class="cal-btn"onclick="getNumber('8')">8</button>
+        <button class="cal-btn"onclick="getNumber('7')">7</button>
+        <button class="cal-btn function"onclick="getNumber('-')">&minus;</button>
+    
+        <button class="cal-btn"onclick="getNumber('6')">6</button>
+        <button class="cal-btn"onclick="getNumber('5')">5</button>
+        <button class="cal-btn"onclick="getNumber('4')">4</button>
+        <button class="cal-btn function"onclick="getNumber('+')">&plus;</button>
+    
+        <button class="cal-btn"onclick="getNumber('3')">3</button>
+        <button class="cal-btn"onclick="getNumber('2')">2</button>
+        <button class="cal-btn"onclick="getNumber('1')">1</button>
+        <button class="cal-btn-specialkey" onclick ="getResult()"id='btn-equal'>&equals;</button>
+    
+        <button class="cal-btn"onclick="getNumber('.')">.</button>
+        <button class="cal-btn"onclick="getNumber('0')">0</button>
+        <button class="cal-btn"onclick="getNumber('00')">00</button>
+    
+    
+    
+        </div>
+</body>
+</html>
